@@ -3,10 +3,14 @@
 @tailwind utilities;
 
 @layer base{
-    table,tbody,tr,td{
-        padding: 0px;
-        border-spacing: 0px;
-        table-layout: fixed;
+    table {
+        border-spacing: 0 !important;
+        border-collapse: collapse !important;
+        table-layout: fixed !important;
+        margin: 0 auto !important;
+    }
+
+    h2 {
         
     }
 }
